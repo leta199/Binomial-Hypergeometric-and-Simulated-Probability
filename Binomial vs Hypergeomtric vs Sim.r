@@ -43,7 +43,7 @@ for(j in 1:4) {
   n_red<-as.integer(0.25*n)
   red_balls <-sample(1:n, n_red, replace = FALSE) #sampling 25% of balls into red group 
   colours<- rep("non red ball",n) #repeats non red ball 100 times 
-  colours[red_balls]<-"red ball"  #assigns balls with index red_balls the string "red ball"
+  colours[red_balls]<-"red ball"  #assigns balls with index "red_balls" the string "red ball"
   
 #creating a vector that stores the binary outcome of our experiment to get the average (probability)
   colour_proportion<-numeric(reps)
@@ -57,7 +57,7 @@ for(i in 1:reps) {
 
 #if samples less than or equal to 0.02*n red balls, success and 1 
   if(sum_of_red_balls <= 0.02*n) {
-    colour_proportion[i]<-1  #assigning success or failure to colour_proportion vector 
+    colour_proportion[i]<-1  #assigning success or failure to "colour_proportion" vector 
   } else {
     colour_proportion[i]<-0
   } 
