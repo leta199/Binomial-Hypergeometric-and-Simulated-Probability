@@ -42,8 +42,8 @@ for(j in 1:4) {
 #partitioning our balls into a vector of red and non-red balls 
   n_red<-as.integer(0.25*n)
   red_balls <-sample(1:n, n_red, replace = FALSE) #sampling 25% of balls into red group 
-  colours<- rep("non red ball",n) #repeats non red ball 100 times 
-  colours[red_balls]<-"red ball"  #assigns balls with index "red_balls" the string "red ball"
+  colours<- rep("non red ball",n)                 #repeats non red ball 100 times 
+  colours[red_balls]<-"red ball"                  #assigns balls with index "red_balls" the string "red ball"
   
 #creating a vector that stores the binary outcome of our experiment to get the average (probability)
   colour_proportion<-numeric(reps)
