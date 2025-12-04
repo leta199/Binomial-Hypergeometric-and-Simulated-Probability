@@ -9,7 +9,7 @@ This notebook will:
 - Approximate probavility in question using stochastic approximation in base R.
 
 ## HOW IT'S MADE 
-Languages used: R verion (4.5.1)    
+Languages used: R (version 4.5.1)    
 Environement: RStudio 
 
 [![Language: R](https://img.shields.io/badge/Language-R-276DC3.svg?style=flat-square)](https://www.r-project.org/)
